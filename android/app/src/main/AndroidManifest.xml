@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="regestration_app"
+=======
+        android:label="bottom_nav_app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

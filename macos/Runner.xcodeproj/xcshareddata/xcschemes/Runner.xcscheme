@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "regestration_app.app"
+=======
+               BuildableName = "bottom_nav_app.app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "regestration_app.app"
+=======
+            BuildableName = "bottom_nav_app.app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "regestration_app.app"
+=======
+            BuildableName = "bottom_nav_app.app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "regestration_app.app"
+=======
+            BuildableName = "bottom_nav_app.app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

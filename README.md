@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # regestration_app
+=======
+# bottom_nav_app
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
 
 A new Flutter project.
 
