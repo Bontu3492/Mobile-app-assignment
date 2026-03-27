@@ -27,7 +27,19 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
+  if (!window.Create(L"catalog_app", origin, size)) {
+=======
+<<<<<<< HEAD
+  if (!window.Create(L"profile_card", origin, size)) {
+=======
+<<<<<<< HEAD
+  if (!window.Create(L"regestration_app", origin, size)) {
+=======
   if (!window.Create(L"bottom_nav_app", origin, size)) {
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
+>>>>>>> e56b9f24d2f6547bb2044ee9a489df72729a5d60
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

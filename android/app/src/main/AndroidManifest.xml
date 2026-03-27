@@ -1,6 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
+        android:label="catalog_app"
+=======
+<<<<<<< HEAD
+        android:label="profile_card"
+=======
+<<<<<<< HEAD
+        android:label="regestration_app"
+=======
         android:label="bottom_nav_app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
+>>>>>>> e56b9f24d2f6547bb2044ee9a489df72729a5d60
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

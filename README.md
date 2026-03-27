@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+# catalog_app
+=======
+<<<<<<< HEAD
+# profile_card
+=======
+<<<<<<< HEAD
+# regestration_app
+=======
 # bottom_nav_app
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
+>>>>>>> e56b9f24d2f6547bb2044ee9a489df72729a5d60
 
 A new Flutter project.
 
