@@ -1,24 +1,30 @@
+// This is a basic Flutter widget test.
+//
+// To perform an interaction with a widget in your test, use the WidgetTester
+// utility in the flutter_test package. For example, you can send tap and scroll
+// gestures. You can also use WidgetTester to find child widgets in the widget
+// tree, read text, and verify that the values of widget properties are correct.
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:bottom_nav_app/main.dart'; // Ensure this matches your project name
+
+import 'package:catalog_app/main.dart';
 
 void main() {
-  testWidgets('Bottom navigation tab switching test', (
-    WidgetTester tester,
-  ) async {
-    // 1. Build our app and trigger a frame.
-    await tester.pumpWidget(const BottomNavApp());
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(const MyApp());
 
-    // 2. Verify that we start on the Home Screen.
-    expect(find.text('Go to Details'), findsOneWidget);
-    expect(find.text('User profile information.'), findsNothing);
+    // Verify that our counter starts at 0.
+    expect(find.text('0'), findsOneWidget);
+    expect(find.text('1'), findsNothing);
 
-    // 3. Tap the 'Profile' icon in the bottom navigation bar.
-    await tester.tap(find.byIcon(Icons.person));
-    await tester.pump(); // Re-render the UI
+    // Tap the '+' icon and trigger a frame.
+    await tester.tap(find.byIcon(Icons.add));
+    await tester.pump();
 
-    // 4. Verify that we are now on the Profile Screen.
-    expect(find.text('User profile information.'), findsOneWidget);
-    expect(find.text('Go to Details'), findsNothing);
+    // Verify that our counter has incremented.
+    expect(find.text('0'), findsNothing);
+    expect(find.text('1'), findsOneWidget);
   });
 }
