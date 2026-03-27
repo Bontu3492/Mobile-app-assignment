@@ -90,12 +90,39 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "catalog_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "catalog_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "catalog_app.exe" "\0"
             VALUE "ProductName", "catalog_app" "\0"
+=======
+<<<<<<< HEAD
+            VALUE "FileDescription", "profile_card" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "profile_card" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "profile_card.exe" "\0"
+            VALUE "ProductName", "profile_card" "\0"
+=======
+<<<<<<< HEAD
+            VALUE "FileDescription", "regestration_app" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "regestration_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "regestration_app.exe" "\0"
+            VALUE "ProductName", "regestration_app" "\0"
+=======
+            VALUE "FileDescription", "bottom_nav_app" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "bottom_nav_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "bottom_nav_app.exe" "\0"
+            VALUE "ProductName", "bottom_nav_app" "\0"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
+>>>>>>> e56b9f24d2f6547bb2044ee9a489df72729a5d60
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

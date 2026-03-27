@@ -45,11 +45,35 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
+<<<<<<< HEAD
     gtk_header_bar_set_title(header_bar, "catalog_app");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "catalog_app");
+=======
+<<<<<<< HEAD
+    gtk_header_bar_set_title(header_bar, "profile_card");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "profile_card");
+=======
+<<<<<<< HEAD
+    gtk_header_bar_set_title(header_bar, "regestration_app");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "regestration_app");
+=======
+    gtk_header_bar_set_title(header_bar, "bottom_nav_app");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "bottom_nav_app");
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
+>>>>>>> e56b9f24d2f6547bb2044ee9a489df72729a5d60
   }
 
   gtk_window_set_default_size(window, 1280, 720);
