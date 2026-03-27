@@ -1,6 +1,16 @@
 {
+<<<<<<< HEAD
     "name": "profile_card",
     "short_name": "profile_card",
+=======
+<<<<<<< HEAD
+    "name": "regestration_app",
+    "short_name": "regestration_app",
+=======
+    "name": "bottom_nav_app",
+    "short_name": "bottom_nav_app",
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

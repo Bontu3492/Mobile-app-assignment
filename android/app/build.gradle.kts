@@ -6,7 +6,15 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.profile_card"
+=======
+<<<<<<< HEAD
+    namespace = "com.example.regestration_app"
+=======
+    namespace = "com.example.bottom_nav_app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +29,15 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.example.profile_card"
+=======
+<<<<<<< HEAD
+        applicationId = "com.example.regestration_app"
+=======
+        applicationId = "com.example.bottom_nav_app"
+>>>>>>> ce9a47a83c01c48f418dbcd27476c987a2c599d9
+>>>>>>> 4a6a729761fa15a8797154dbf7df2b82eb7ebf07
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
